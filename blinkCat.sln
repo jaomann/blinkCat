@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blinkCat", "blinkCat\blinkCat.csproj", "{DD54DDE5-F78F-4167-8CF1-DAD231AA45B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blinkServices", "blinkServices\blinkServices.csproj", "{68120978-57F5-4E01-BD25-8F21A7DC7777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blinkCore", "blinkCore\blinkCore.csproj", "{FD26F75E-9E3B-4B52-A7C7-4D5983A1D11E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blinkRepository", "blinkRepository\blinkRepository.csproj", "{B9802C08-A1B0-4D15-84E3-7F1843C1F3E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD54DDE5-F78F-4167-8CF1-DAD231AA45B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD54DDE5-F78F-4167-8CF1-DAD231AA45B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD54DDE5-F78F-4167-8CF1-DAD231AA45B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD54DDE5-F78F-4167-8CF1-DAD231AA45B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68120978-57F5-4E01-BD25-8F21A7DC7777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68120978-57F5-4E01-BD25-8F21A7DC7777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68120978-57F5-4E01-BD25-8F21A7DC7777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68120978-57F5-4E01-BD25-8F21A7DC7777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD26F75E-9E3B-4B52-A7C7-4D5983A1D11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD26F75E-9E3B-4B52-A7C7-4D5983A1D11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD26F75E-9E3B-4B52-A7C7-4D5983A1D11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD26F75E-9E3B-4B52-A7C7-4D5983A1D11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9802C08-A1B0-4D15-84E3-7F1843C1F3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9802C08-A1B0-4D15-84E3-7F1843C1F3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9802C08-A1B0-4D15-84E3-7F1843C1F3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9802C08-A1B0-4D15-84E3-7F1843C1F3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BA9F613-17AC-48B6-9E95-374E979684EF}
+	EndGlobalSection
+EndGlobal
