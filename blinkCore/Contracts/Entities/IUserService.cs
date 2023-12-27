@@ -9,5 +9,6 @@ namespace blinkCore.Contracts.Entities
 {
     public interface IUserService : IBaseService<User>
     {
+        public Task<User> VerifyUser(string email);
     }
 }

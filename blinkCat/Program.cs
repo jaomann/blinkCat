@@ -1,4 +1,9 @@
+using blinkCat.Mapper;
+using blinkCore.Contracts.Entities;
+using blinkCore.Contracts.Repository;
 using blinkRepository;
+using blinkRepository.Repositories;
+using blinkServices;
 using Microsoft.EntityFrameworkCore;
 
 namespace blinkCat
@@ -12,6 +17,10 @@ namespace blinkCat
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<Context>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddAutoMapper(typeof(MapperProfile));
+
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
 
             var app = builder.Build();
 

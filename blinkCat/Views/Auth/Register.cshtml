@@ -5,17 +5,18 @@
             <h1>Welcome</h1>
         </div>
         <div class="form-group bg-white text-dark rounded-3 p-5 m-2">
-            <form method="post" asp-action="Login">
+            <form method="post" asp-action="Register">
                 <h5 class="mb-2 text-black-50">@Html.DisplayNameFor(x => x.Email)</h5>
-                @Html.TextBoxFor(x => x.Email, new{Placeholder="just type your email...", @class="form-control"})
+                @Html.TextBoxFor(x => x.Email, new{Placeholder="email:", @class="form-control"})
+                <h5 class="mb-2 text-black-50">@Html.DisplayNameFor(x => x.Birthday)</h5>
+                @Html.TextBoxFor(x => x.Birthday, new{type="date", @class="form-control"})
                 <h5 class="mb-2 text-black-50">@Html.DisplayNameFor(x => x.Password)</h5>
-                @Html.PasswordFor(x => x.Password, new{Placeholder="***", type="password", @class="form-control"})
+                @Html.PasswordFor(x => x.Password, new{Placeholder="your new password here:", type="password", @class="form-control"})
                 <button class="btn btn-primary mt-3 p-2 w-25" type="submit">Go!</button>
             </form>
         </div>
         <div style="background-color:black;" class="justify-content-between row rounded-3 p-1 m-2 text-end">
-            <p class="text-danger">@ViewData["error"]</p>
-            <a asp-action="Register" asp-controller="Auth" style="text-decoration: none; color:white;">i´m new!</a>
+            <a asp-action="Login" asp-controller="Auth" style="text-decoration: none; color:white;">i already have a account</a>
         </div>
     </div>
 </div>

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace blinkServices
 {
-    internal class BaseService<T> : IBaseService<T> where T : EntityBase
+    public class BaseService<T> : IBaseService<T> where T : EntityBase
     {
         private readonly IBaseRepository<T> _baseRepository;
         public BaseService(IBaseRepository<T> baseRepository)

@@ -9,5 +9,6 @@ namespace blinkCore.Contracts.Repository
 {
     public interface IUserRepository : IBaseRepository<User>
     {
+        User FindByEmail(string email);
     }
 }
